@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="images/jepg" href="https://raw.githubusercontent.com/Venkatasirisha16/Live-Code-Editor/main/images/live-code-favicon.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://kit.fontawesome.com/a5e3dc0c66.js" crossorigin="anonymous"></script>
+  <title>live code editor</title>
+</head>
+<body>
+  <div class="container">
+    <div class="left">
+       <label><img src="https://raw.githubusercontent.com/Venkatasirisha16/Live-Code-Editor/main/images/html.png" alt="">HTML</label>
+       <textarea id="html-code" onkeyup="run()"></textarea>
+       <label><img src="https://raw.githubusercontent.com/Venkatasirisha16/Live-Code-Editor/main/images/CSS.png" alt="">CSS</label>
+       <textarea id="css-code" onkeyup="run()"></textarea>
+      
+    </div>
+    <div class="right">
+    <label><i class="fa-solid fa-play"></i>output</label>
+    <iframe id="output"></iframe>
+    </div>
+  </div>
+   <script src="script.js"></script>
+</body>
+</html>
